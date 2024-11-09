@@ -1,0 +1,28 @@
+
+Exercise 7: Understanding React Context
+
+Description: 
+
+Discuss the benefits and drawbacks of using React Context.
+
+
+Answer:
+
+
+Benefits:
+
+Avoids Prop Drilling: Allows passing data through the component tree 
+without having to pass props down manually at every level.
+
+Global State Management: 
+Useful for global settings like themes, locales, or authenticated user data.
+
+
+Drawbacks:
+
+Performance Issues: Every context consumer will re-render when the 
+context value changes, which can lead to performance problems if not 
+managed correctly.
+
+Complexity: Can make components less reusable and more 
+tightly coupled to the context.

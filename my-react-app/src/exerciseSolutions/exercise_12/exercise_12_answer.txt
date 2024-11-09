@@ -1,0 +1,25 @@
+Exercise 12: Benefits and Limitations of HOCs
+
+Description: 
+
+Discuss the use cases and limitations of Higher-Order Components.
+
+
+Answer:
+
+
+Use Cases:
+
+Code Reusability: Share common functionality between components.
+
+Cross-Cutting Concerns: Handle logging, authentication, or 
+data fetching in a centralized way.
+
+
+Limitations:
+
+Wrapper Hell: Can lead to deeply nested component hierarchies.
+
+Props Collision: Need to carefully manage props to avoid conflicts.
+
+Less Intuitive: May be harder to understand compared to hooks.

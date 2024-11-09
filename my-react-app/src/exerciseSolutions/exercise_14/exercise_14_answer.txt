@@ -1,0 +1,20 @@
+Exercise 14: Debugging with React DevTools
+
+Description: 
+
+Explain how to use React DevTools to inspect components and their state.
+
+
+Answer:
+
+React DevTools is a browser extension that allows developers to 
+inspect the React component tree. 
+
+You can:
+
+Inspect Component Hierarchy: View the tree of components rendered by React.
+
+Examine Props and State: See the current props and state of any component.
+
+Performance Profiling: Measure the performance of your components.
+

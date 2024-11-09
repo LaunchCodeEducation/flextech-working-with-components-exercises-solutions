@@ -1,7 +1,6 @@
 import React, { Suspense, lazy } from "react";
-import "./App.css";
 
-const LazyComponent = lazy(() => import("./components/LazyComponent"));
+const LazyComponent = lazy(() => import("./LazyComponent"));
 
 function App() {
   return (

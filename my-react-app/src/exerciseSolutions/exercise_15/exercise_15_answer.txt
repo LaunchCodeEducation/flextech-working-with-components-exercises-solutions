@@ -1,0 +1,17 @@
+Exercise 15: Diagnosing Performance Issues
+
+Description: 
+
+Use the React Profiler to identify and optimize slow components.
+
+
+Answer:
+
+The React Profiler helps identify performance bottlenecks in applications. 
+You can record a profiling session and see:
+
+Which Components Rendered: Identify components that re-render frequently.
+
+Render Times: See how long each component took to render.
+
+Flame Chart: Visual representation of rendering hierarchy.

@@ -1,0 +1,16 @@
+Exercise 9: Managing Component Lifecycle
+
+Description: 
+
+Explain how useEffect manages the lifecycle of functional components.
+
+
+Answer:
+
+The useEffect hook allows you to perform side effects in functional components. 
+
+It combines the functionality of componentDidMount, componentDidUpdate, and 
+componentWillUnmount in class components. 
+
+The effect runs after the render and can optionally clean up before the 
+component unmounts or before re-running the effect.
