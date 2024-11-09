@@ -1,3 +1,4 @@
+import "./App.css";
 import React, { useState, useCallback } from "react";
 import ChildComponent from "./ChildComponent";
 

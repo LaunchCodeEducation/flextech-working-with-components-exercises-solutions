@@ -1,3 +1,4 @@
+import "./App.css";
 import React, { useState } from "react";
 import ThemeContext from "./context/ThemeContext";
 import Dashboard from "./Dashboard";

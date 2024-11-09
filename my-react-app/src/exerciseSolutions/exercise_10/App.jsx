@@ -1,3 +1,4 @@
+import "./App.css";
 import React from "react";
 import withLoading from "./hoc/withLoading";
 import DataDisplay from "./DataDisplay";
