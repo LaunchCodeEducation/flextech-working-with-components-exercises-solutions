@@ -10,6 +10,7 @@ This will start the Vite development server.
 
 You can view this solutions app at http://localhost:3500.
 
+NOTICE THAT FOR THIS SOLUTION REPO, IT WILL RUN ON PORT 3500, NOT PORT 5500.
 
 The project structure should look like this:
 `
@@ -24,9 +25,11 @@ my-react-app/
 └── node_modules/
 `
 
-You will be creating your React exercise answers inside of the `src` 
-directory.
+Exercise instructions are in the file named `EXERCISE-INSTRUCTIONS.txt` inside
+of the `my-react-app` directory.
 
+Individual exercise solution files are in the folder `exerciseSolutions` inside
+of the `my-react-app` directory.
 
 
 
