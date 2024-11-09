@@ -1,7 +1,5 @@
-import "./App.css";
-
 import React from "react";
-import ErrorButton from "./components/ErrorButton";
+import ErrorButton from "./ErrorButton";
 
 function App() {
   return (
