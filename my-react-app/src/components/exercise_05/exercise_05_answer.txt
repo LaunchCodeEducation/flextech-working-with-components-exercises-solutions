@@ -1,0 +1,16 @@
+Exercise 5: Handling State Changes
+
+Description: 
+
+Explain how state changes in the Counter component cause re-rendering.
+
+
+Answer:
+
+When the `setCount` function is called (either via the increment or decrement button), 
+it updates the 'count' state variable. 
+
+React detects this state change and re-renders the `Counter` component to 
+reflect the updated 'count' value. 
+
+This is how React ensures the UI stays in sync with the state.
