@@ -8,7 +8,7 @@ Then, you can start the Vite development server by running:
 
 This will start the Vite development server. 
 
-You can view your app at http://localhost:5173.
+You can view this solutions app at http://localhost:3500.
 
 
 The project structure should look like this:
