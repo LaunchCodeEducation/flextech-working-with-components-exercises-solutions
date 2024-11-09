@@ -1,20 +1,17 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useCallback } from "react";
+import ChildComponent from "./ChildComponent";
 
 function App() {
-  const [number, setNumber] = useState(1);
+  const [count, setCount] = useState(0);
 
-  const factorial = useMemo(() => {
-    console.log("Calculating factorial");
-    const computeFactorial = (n) => (n <= 1 ? 1 : n * computeFactorial(n - 1));
-    return computeFactorial(number);
-  }, [number]);
+  const handleClick = useCallback(() => {
+    console.log("Button clicked");
+  }, []);
 
   return (
     <div>
-      <h2>
-        Factorial of {number} is {factorial}
-      </h2>
-      <button onClick={() => setNumber(number + 1)}>Increment Number</button>
+      <button onClick={() => setCount(count + 1)}>Increment {count}</button>
+      <ChildComponent onClick={handleClick} />
     </div>
   );
 }

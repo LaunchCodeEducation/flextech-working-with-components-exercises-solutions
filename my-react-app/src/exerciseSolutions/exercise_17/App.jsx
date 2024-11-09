@@ -1,14 +1,14 @@
-import React, { Suspense, lazy } from "react";
-
-const LazyComponent = lazy(() => import("./LazyComponent"));
+import React, { useState } from "react";
+import PureComponent from "./components/PureComponent";
 
 function App() {
+  const [count, setCount] = useState(0);
+  const value = "Constant Value";
+
   return (
     <div>
-      <h1>Main App</h1>
-      <Suspense fallback={<div>Loading...</div>}>
-        <LazyComponent />
-      </Suspense>
+      <button onClick={() => setCount(count + 1)}>Increment {count}</button>
+      <PureComponent value={value} />
     </div>
   );
 }

@@ -1,14 +1,20 @@
-import React, { useState } from "react";
-import PureComponent from "./components/PureComponent";
+import React, { useState, useMemo } from "react";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const value = "Constant Value";
+  const [number, setNumber] = useState(1);
+
+  const factorial = useMemo(() => {
+    console.log("Calculating factorial");
+    const computeFactorial = (n) => (n <= 1 ? 1 : n * computeFactorial(n - 1));
+    return computeFactorial(number);
+  }, [number]);
 
   return (
     <div>
-      <button onClick={() => setCount(count + 1)}>Increment {count}</button>
-      <PureComponent value={value} />
+      <h2>
+        Factorial of {number} is {factorial}
+      </h2>
+      <button onClick={() => setNumber(number + 1)}>Increment Number</button>
     </div>
   );
 }
